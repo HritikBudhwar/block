@@ -2,6 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Send, Repeat, DollarSign, Eye, EyeOff, Copy, CheckCircle, AlertCircle, X, ArrowLeft, Plus } from 'lucide-react';
 // import './Wallet.css'
 
+
+
+
+
+
+
+
+
 const Wallet = () => {
   const [balance, setBalance] = useState(125.50);
   const [showBalance, setShowBalance] = useState(true);
