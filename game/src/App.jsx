@@ -7,6 +7,7 @@ import Analytics from './frontend/Features/Analytics'
 import Sign from './frontend/Features/Sign'
 import Signup from './frontend/Features/Signup'
 import Wallet from './frontend/Extra/Wallet'
+import Transfer from './frontend/UI/Transfer'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path ="/Sign" element={<Sign/>}/>
         <Route path ="/Signup" element={<Signup/>}/>
         <Route path="/Wallet" element={<Wallet />} />
+        <Route path="/Transfer" element={<Transfer />} />
 
       </Routes>
       </Router>
@@ -31,26 +33,3 @@ const App = () => {
 }
 
 export default App;
-
-
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Navbar from './frontend/Navbar'
-// import Home from './frontend/Home';
-// import Leaderboard from './frontend/Features/Leader';
-
-
-// function App() {
-//   return (
-//     <Router>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/leaderboard" element={<Leaderboard />} />
-//         {/* <Route path="/signin" element={<SignIn />} />
-//         <Route path="/analytics" element={<Analytics />} /> */}
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
