@@ -1,0 +1,194 @@
+
+.analytics-container {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.dashboard-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+/* ==== Stats Cards ==== */
+.stats-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.stat-card {
+  flex: 1 1 220px;
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: #10b981;
+}
+
+.stat-title {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.stat-change {
+  font-size: 0.875rem;
+  color: #10b981;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.stat-change-icon {
+  margin-right: 0.25rem;
+}
+
+.stat-comparison {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 0.25rem;
+}
+
+/* ==== Main Content Grid ==== */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* ==== Activity Section ==== */
+.activity-section {
+  flex: 2;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.activity-list {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  padding-right: 0px;
+}
+
+.activity-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  padding-right: 0px;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+  padding-right: 0px;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 0px;
+}
+
+.activity-type {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.activity-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.activity-time {
+  text-align: right;
+}
+
+.activity-user {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  padding-right: 0px;
+}
+
+/* ==== Badge Distribution ==== */
+.distribution-section {
+  flex: 1;
+}
+
+.badge-list {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  padding-right: 0px;
+  
+}
+
+.badge-item {
+  margin-bottom: 1rem;
+}
+
+.badge-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #374151;
+  padding-right: 0px;
+}
+
+.badge-name {
+  font-weight: 600;
+}
+
+.badge-stats {
+  color: #6b7280;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #6366f1, #3b82f6);
+  width: 100%;
+  margin-top: 0.25rem;
+}
